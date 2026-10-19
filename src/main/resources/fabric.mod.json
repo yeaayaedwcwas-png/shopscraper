@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "shopscraper",
+  "version": "${version}",
+  "name": "Shop Scraper",
+  "description": "Client-side mod that records Buy/Sell prices from EconomyShopGUI menus you open into a CSV file.",
+  "authors": ["you"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["dev.shopscraper.ShopScraperClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "~26.1",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
